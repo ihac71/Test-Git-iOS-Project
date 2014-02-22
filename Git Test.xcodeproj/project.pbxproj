@@ -21,6 +21,7 @@
 		575E045018B956C7004E0D5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575E043218B956C7004E0D5E /* UIKit.framework */; };
 		575E045818B956C7004E0D5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 575E045618B956C7004E0D5E /* InfoPlist.strings */; };
 		575E045A18B956C7004E0D5E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 575E045918B956C7004E0D5E /* Git_TestTests.m */; };
+		575E046518B95D35004E0D5E /* CPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 575E046418B95D35004E0D5E /* CPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		575E045518B956C7004E0D5E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		575E045718B956C7004E0D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		575E045918B956C7004E0D5E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		575E046318B95D35004E0D5E /* CPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTest.h; sourceTree = "<group>"; };
+		575E046418B95D35004E0D5E /* CPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				575E044018B956C7004E0D5E /* Main.storyboard */,
 				575E044318B956C7004E0D5E /* CPViewController.h */,
 				575E044418B956C7004E0D5E /* CPViewController.m */,
+				575E046318B95D35004E0D5E /* CPTest.h */,
+				575E046418B95D35004E0D5E /* CPTest.m */,
 				575E044618B956C7004E0D5E /* Images.xcassets */,
 				575E043518B956C7004E0D5E /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				575E043B18B956C7004E0D5E /* main.m in Sources */,
 				575E043F18B956C7004E0D5E /* CPAppDelegate.m in Sources */,
+				575E046518B95D35004E0D5E /* CPTest.m in Sources */,
 				575E044518B956C7004E0D5E /* CPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
